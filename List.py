@@ -1,7 +1,7 @@
 print ("What you want \n1. String Element \n2. Number Element")
 select_input = int(input("write down the number so that we move on to the next list step: "))
 if select_input == 1:
-    user_input = int(input("enter the value: ").split())
+    user_input = (input("enter the value: ").split())
 
 elif select_input == 2:
     user_input = list(map(int,input("\nEnter the numbers : ").strip().split()))
