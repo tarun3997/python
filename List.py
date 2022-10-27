@@ -117,7 +117,7 @@ def delete():
 
 if change_input == 'y':
     print("what you want to change in list")
-    print("1. Update data \n2. Append the data \n3. Extend the data \n4. Insert the new value \n5. Remove\pop value \n6.Delete ")
+    print("1. Update data \n2. Append the data \n3. Extend the data \n4. Insert the new value \n5. Remove\pop value \n6.Delete \n7 Check Length of dictionary ")
 
     take_input = int(input("Enter the number what you want to change: "))
 
@@ -133,9 +133,17 @@ if change_input == 'y':
         remove()
     elif take_input == 6:
         delete()
+    elif take_input == 7:
+        print(len(mylist))
 
 
 
+    else :
+        print("enter the valid number")
+
+elif change_input == 'N' or 'n':
+    print("thank have a good day")
+    exit()
 else:
-    print("by")
+    print("enter the valid input")
     exit()
