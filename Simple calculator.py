@@ -41,6 +41,6 @@ while (x == 'y' or x == 'Y'):
         print("Thanks for using")
         break
 
-    else: 
-        print("Enter valid input ")
+else: 
+    print("Enter valid input ")
         
