@@ -338,6 +338,8 @@ while (x == 'y' or x == 'Y'):
         elif perimeter_input == 6:
             parallelogram()
 
+    else:
+        print("Enter Valid input")
 
     x = input("you want to continue y/n: ")
 
@@ -345,6 +347,6 @@ while (x == 'y' or x == 'Y'):
         print("Thanks for using")
         break
 
-    else: 
-        print("Enter valid input ")
+else: 
+    print("Enter valid input ")
         
